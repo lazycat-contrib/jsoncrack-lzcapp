@@ -15,4 +15,4 @@ application:
 
 services:
   jsoncrack:
-    image: registry.lazycat.cloud/czyt/shokohsc/jsoncrack:75d8debd87b86c0e
+    image: docker.1ms.run/shokohsc/jsoncrack:latest
