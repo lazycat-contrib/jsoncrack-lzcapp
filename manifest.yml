@@ -1,0 +1,18 @@
+lzc-sdk-version: "0.1"
+name: JSON Crack
+package: cloud.lazycat.app.jsoncrack
+version: 2.0.0
+description: The open-source JSON Editor.
+homepage: https://github.com/AykutSarac/jsoncrack.com
+author: AykutSarac
+application:
+  subdomain: jsoncrack
+  background_task: true
+  public_path:
+    - /
+  routes:
+    - /=http://jsoncrack:8080
+
+services:
+  jsoncrack:
+    image: registry.lazycat.cloud/czyt/shokohsc/jsoncrack:75d8debd87b86c0e
