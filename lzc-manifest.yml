@@ -1,0 +1,13 @@
+application:
+  subdomain: jsoncrack
+  background_task: true
+  public_path:
+    - /
+  upstreams:
+    - location: /
+      backend: http://jsoncrack:8080/
+
+services:
+  jsoncrack:
+    # upstream: shokohsc/jsoncrack:latest
+    image: docker.1ms.run/shokohsc/jsoncrack:latest@sha256:9702af9d7b456946b1de335c633fd8b1f90771437ff878bef6fae693a00b372c

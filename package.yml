@@ -1,0 +1,14 @@
+package: cloud.lazycat.app.jsoncrack
+version: 2.0.0
+name: JSON Crack
+description: "The open-source JSON Editor."
+min_os_version: "1.5.0"
+homepage: https://github.com/AykutSarac/jsoncrack.com
+author: AykutSarac
+locales:
+  zh:
+    description: "开源 JSON 可视化编辑器"
+    name: JSON Crack
+  en:
+    description: "The open-source JSON Editor."
+    name: JSON Crack
