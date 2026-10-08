@@ -1,4 +1,5 @@
 package: cloud.lazycat.app.jsoncrack
+license: Apache-2.0
 version: 2.0.0
 name: JSON Crack
 description: "The open-source JSON Editor."
